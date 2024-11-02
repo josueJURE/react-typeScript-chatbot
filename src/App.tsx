@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Button from "./components/Button";
+import Input from "./components/Input";
 
 function App() {
   return (
@@ -10,11 +11,7 @@ function App() {
           <Header />
           <div className="responseElement"></div>
           <div className="inputAndButton">
-            <input
-              className="userInput"
-              type="text"
-              placeholder="enter your question"
-            />
+            <Input />
             <Button />
           </div>
 
