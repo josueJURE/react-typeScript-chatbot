@@ -1,6 +1,6 @@
 
-
 import './App.css'
+import Header from './components/Header'
 
 function App() {
 
@@ -11,9 +11,8 @@ function App() {
     <>
         <div className="parent-container">
         <div className="main-container">
-            <h1>
-                <div>Need advice on cooking?</div>
-            </h1>
+          <Header/>
+       
            
            
             <div className="responseElement">
