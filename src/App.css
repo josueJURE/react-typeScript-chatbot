@@ -1,0 +1,113 @@
+
+      
+      * {
+        font-family: "Gowun Batang", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+
+.parent-container {
+    border: 1px red solid;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.main-container {
+    border: 1px black solid;
+    height: 100vh;
+    width: 500px;
+    border-radius: 15px;
+    /* display: flex; */
+    overflow: hidden;
+    overflow-y: scroll;
+    background-image: url("./Designer_3.png");
+    background-size: cover;
+}
+
+.flex-start {
+    /* display: flex; */
+    justify-content: flex-start;
+
+}
+
+.flex-end {
+    /* display: flex; */
+    justify-content: flex-end;
+}
+
+
+
+
+.userNewDiv {
+    /* background-color: rgb(84, 84, 171); */
+    background-color: hsla(240,7%,62%,1);
+    margin-left: 250px;
+    padding: 6px;
+    margin-top: 20px;
+    border: 1px black solid;
+    width: 200px;
+    border-radius: 15px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.assistantNewDiv {
+    background-color: rgb(164, 126, 95);
+    margin-left: 15px;
+    padding: 6px;
+    margin-top: 20px;
+    border: 1px black solid;
+    height: 70px;
+    width: 200px;
+    border-radius: 15px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.userInput {
+    width: 120px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.displayNone {
+    display: none;
+}
+
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 377px;
+        height: 110px;
+        background-color: white;
+        border-radius: 5px;
+        margin: 10px auto;
+        transition: background-color 0.5s ease;
+        border: 2px black solid;
+    }
+
+
+    .display {
+        display: block;
+        margin-left: 309px;
+        margin-top: 10px;
+    }
+
+
+    .in-progress  {
+        background-color: #f11b29;
+        border-left: 3px solid #007bff;
+      }
